@@ -1,7 +1,7 @@
 # Latex-JavaScript
 Typeset JavaScript codes in Latex.
 
-KeyWords from
+Keywords from
 
     - JavaScript (ES 6)
     - Node.js
