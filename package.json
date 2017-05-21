@@ -1,0 +1,22 @@
+{
+  "name": "latex-javascript",
+  "version": "1.0.0",
+  "description": "Typeset JavaScript codes in Latex",
+  "main": "main.tex",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgirma/Latex-JavaScript.git"
+  },
+  "keywords": [
+    "Latex",
+    "JavaScript",
+    "Typeset",
+    "lstlisting"
+  ],
+  "author": "Girma  Nigusse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xgirma/Latex-JavaScript/issues"
+  },
+  "homepage": "https://github.com/xgirma/Latex-JavaScript#readme"
+}
