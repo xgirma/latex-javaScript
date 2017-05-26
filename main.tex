@@ -21,9 +21,15 @@
 \definecolor{linenumber}{HTML}{996515} % line number
 \definecolor{apricot}{HTML}{98777B} % numbers
 \definecolor{linenofill}{HTML}{BEBEBE} % line number fill color
+\definecolor{antiquefuchsia}{HTML}{915C83} % braces 
+\definecolor{ballblue}{HTML}{21ABCD} % braces 
 
 \definecolor{captioncolor}{rgb}{0.39, 0.33, 0.32} % caption color
 \captionsetup[lstlisting]{font={color=captioncolor, small,tt}}
+
+\captionsetup[lstlisting]{font={color=captioncolor, small, tt}}
+\DeclareCaptionFormat{listing}{\rule{\dimexpr\textwidth+17pt\relax}{0.4pt}\vskip1pt#1#2#3}
+\captionsetup[lstlisting]{format=listing,singlelinecheck=false, margin=0pt, font={sf},labelsep=space,labelfont=bf}
 
 \lstdefinelanguage{JavaScript}{
   alsoletter={.},
@@ -50,6 +56,7 @@
   \lstset{
    basicstyle=\normalsize\linespread{1.1}\footnotesize\ttfamily,
    language=JavaScript,
+   frame=top,frame=bottom,
    breaklines=true,
    showstringspaces=false,
    tabsize=2,
@@ -59,9 +66,13 @@
    stepnumber=1, 
    numbersep=5pt,
    numberblanklines=false,
-   caption=\ttfamily,
-   frame=bottomline,
+   xleftmargin=17pt,
+   framexleftmargin=17pt,
+   framexrightmargin=17pt,
+   framexbottommargin=5pt,
+   framextopmargin=5pt,
    alsoother={.},
+   captionpos=t,
    literate=
             *{\{}{{\textcolor{antiquefuchsia}{\{}}}{1}% punctuators 
             {\}}{{\textcolor{antiquefuchsia}{\}}}}{1}%
