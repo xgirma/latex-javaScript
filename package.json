@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/xgirma/Latex-JavaScript/issues"
   },
-  "homepage": "https://github.com/xgirma/Latex-JavaScript#readme"
+  "homepage": "https://github.com/xgirma/Latex-JavaScript#readme",
+  "dependencies": {}
 }
